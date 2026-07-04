@@ -1,6 +1,6 @@
 
 l=[]
-
+while true: 
 def view():
     print(l)
 
@@ -19,7 +19,7 @@ def done():
         ans=input("Do you wish to continue marking tasks? yes/no: ")
 
 print("WELCOME TO YOUR TO DO LIST! :)")
-print("MENU \n1.View your list \n2.Add tasks \n3.Cross off tasks")  
+print("MENU \n1.View your list \n2.Add tasks \n3.Cross off tasks \n4. Any other key to exit")  
 ch=int(input("Enter your choice: "))
 if ch==1: 
     view()
